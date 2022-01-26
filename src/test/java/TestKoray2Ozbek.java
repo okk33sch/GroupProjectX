@@ -1,4 +1,4 @@
-public class Sport {
+public class TestKoray2Ozbek {
     String name;
     int numOfPlayers;
     boolean teamBased;
@@ -9,7 +9,7 @@ public class Sport {
         teamBased = teams;
     }
 
-    public Sport(String name, int numOfPlayers, boolean teamBased) {
+    public TestKoray2Ozbek(String name, int numOfPlayers, boolean teamBased) {
         this.name = name;
         this.numOfPlayers = numOfPlayers;
         this.teamBased = teamBased;
@@ -27,10 +27,11 @@ public class Sport {
     }
 
     public static void main(String[] args) {
-        Sport soccer = new Sport("Ahmet", 32, false);
+        TestKoray2Ozbek soccer = new TestKoray2Ozbek("Ahmet", 32, false);
         //soccer.makeSport(true);
-        Sport soccer2 = new Sport("Namik", 23, false);
+        TestKoray2Ozbek soccer2 = new TestKoray2Ozbek("Namik", 23, false);
         System.out.println(soccer);
         System.out.println(soccer2);
+        System.out.println("Good night");
     }
 }
